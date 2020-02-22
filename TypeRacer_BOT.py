@@ -18,4 +18,5 @@ for i in INPUT:
     bot.find_element_by_tag_name('body').send_keys(i)
     time.sleep(0.1)
 
-#0.15 delay for around 70wpm and 0.1 for around 100
+#free free to adjust the time delay inside the for loop to increase or decrease the typing speed of the bot
+#to give you an idea a delay of 0.1 gives typing speeds a little over 100 wpm and 0.15 will give around 60 or 70wpm.
